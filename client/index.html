@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js"></script>
+  <title>Custom Task Manager</title>
+</head>
+<body app-theme="light">
+  <header id="tm-app-header">
+    <span id="tm-app-name">Тестирование оборудования</span>
+    <div id="tm-app-header__right-block">
+      <div class="user-info">
+        <img src="./images/keanu.jpg" alt="User avatar" class="user-info__avatar" />
+        <span class="user-info__username">Keanu Reeves</span>
+      </div>
+    </div>
+  </header>
+  <main id="tm-app-base">
+    <ul class="tasklists-list">
+      <!--li class="tasklist" id="0c101687-c49e-4d71-bbc9-3161b3daa99a">
+        <header class="tasklist__header">
+          <span class="tasklist__header__tasklist_name"> Зубенко Михаил Петрович </span>
+          <div class="tasklist__header__tasklist_controls">
+            <button class="task-move-forward" type="button">
+              <img src="./assets/edit.svg" alt="Move task to next tasklist" />
+            </button>
+            <button class="task-move-forward" type="button">
+              <img src="./assets/delete-button.svg" alt="Move task to next tasklist" />
+            </button>
+          </div>
+        </header>
+        <ul class="tasklist__tasks-list"></ul>
+        <button class="tasklist__add-task-btn">Добавить заявку</button>
+      </li-->
+      <li class="tasklist">
+        <button id="add-tasklist-btn">
+          Добавить сотрудника
+        </button>
+        <input
+          type="text"
+          id="add-tasklist-input"
+          placeholder="ФИО сотрудника"
+        />
+      </li>
+    </ul>
+  </main>
+</body>
+</html>

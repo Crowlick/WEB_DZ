@@ -1,0 +1,17 @@
+{
+  "name": "task-manager",
+  "version": "0.1.0",
+  "description": "TSKMNGR",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "server": "node ./server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "pg": "^8.13.1"
+  }
+}
